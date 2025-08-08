@@ -1,0 +1,7 @@
+DataFrame Code,DataFrame Name,Description,Num Rows,Num Columns
+dfc_001,finalized_broder_crossing_df,,102519,10
+dfc_002,state_table,,14,5
+dfc_003,border_table,,2,2
+dfc_004,measure_table,,12,2
+dfc_005,port_table,,117,2
+dfc_006,month_table,,12,2
