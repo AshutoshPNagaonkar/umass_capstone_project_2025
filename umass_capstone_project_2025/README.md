@@ -5,28 +5,28 @@ The project is divided into 5 parts:
 
 ## Part 01: Data Engineering
 Preparing and Structuring Data
-This phase focuses on collecting, cleaning, transforming, and optimizing the raw dataset to make it analysis-ready.
-Here the data is collected. Necessary steps like Data Cleaning- checking for null, missing values, duplicates. 
-Data Collection: Imported and reviewed the raw dataset, ensuring consistency in column names and data types.
-Data Cleaning: Detected and handled nulls, missing values, and duplicates to maintain data integrity.
-Encoding & Abbreviation:
-Encoded categorical variables for analysis and created standardized abbreviations for port and state names.
-Schema Design:
-Normalized the dataset into a Star Schema, comprising six dimension tables and one fact (measure) table to support analytical queries.
-Feature Engineering:
-Integrated categorical lookup codes and merged related attributes to enhance analytical flexibility.
-Optimization:
-Reduced dataset size from 157.62 MB to 78.12 MB (≈50% reduction) through normalization and selective field retention.
-Documentation:
-Created a detailed Data Dictionary outlining variable definitions, data types, and transformation logic.
-Final data structure and size after data engineering
-raw_df: 157.62 MB
-refined_df: 78.12 MB
-state_table: 0.00 MB
-border_table: 0.00 MB
-measure_table: 0.00 MB
-port_table: 0.01 MB
-month_table: 0.00 MB
+This phase focuses on collecting, cleaning, transforming, and optimizing the raw dataset to make it analysis-ready.<br>
+Here the data is collected. Necessary steps like Data Cleaning- checking for null, missing values, duplicates.<br> 
+Data Collection: Imported and reviewed the raw dataset, ensuring consistency in column names and data types.<br>
+Data Cleaning: Detected and handled nulls, missing values, and duplicates to maintain data integrity.<br>
+Encoding & Abbreviation:<br>
+Encoded categorical variables for analysis and created standardized abbreviations for port and state names.<br>
+Schema Design:<br>
+Normalized the dataset into a Star Schema, comprising six dimension tables and one fact (measure) table to support analytical queries.<br>
+Feature Engineering:<br>
+Integrated categorical lookup codes and merged related attributes to enhance analytical flexibility.<br>
+Optimization:<br>
+Reduced dataset size from 157.62 MB to 78.12 MB (≈50% reduction) through normalization and selective field retention.<br>
+Documentation:<br>
+Created a detailed Data Dictionary outlining variable definitions, data types, and transformation logic.<br>
+Final data structure and size after data engineering<br>
+raw_df: 157.62 MB<br>
+refined_df: 78.12 MB<br>
+state_table: 0.00 MB<br>
+border_table: 0.00 MB<br>
+measure_table: 0.00 MB<br>
+port_table: 0.01 MB<br>
+month_table: 0.00 MB<br>
 
 Observation
 - The raw dataset was reduced by nearly 50% in refined_df while creating dimension and fact tables for analytics.
