@@ -2,7 +2,8 @@
 
 This project demonstrates the complete data journey: transforming raw data into insights, forecasting future trends, and leveraging Generative AI to generate visuals from natural language prompts.
 The project is divided into 5 parts:
-##Part 01: Data Engineering
+
+## Part 01: Data Engineering
 Preparing and Structuring Data
 This phase focuses on collecting, cleaning, transforming, and optimizing the raw dataset to make it analysis-ready.
 Here the data is collected. Necessary steps like Data Cleaning- checking for null, missing values, duplicates. 
@@ -32,7 +33,7 @@ Observation
 - Some dimension tables (state_table, border_table...) show as 0.00 MB because they contain very few rows or lightweight reference data. This is normal in a star schema, where dimension tables store categorical or lookup information, which is much smaller than the main fact table.
 - The port_table at 0.01 MB is slightly larger due to containing all port-level reference codes.
 
-##Part 02: Exploratory Data Analysis (EDA)
+## Part 02: Exploratory Data Analysis (EDA)
 Uncovering Patterns and Relationships in Data
 Basis Analytics:
 - Analyzed minimum, maximum, and trends year-wise, state-wise, port-wise, and measure-wise.
@@ -55,7 +56,7 @@ Rather than treating these as errors, the zero values were retained for further 
 - Inactive months
 - Policy effects such as pandemic-related closures
 
-##Part 03: Data Visualization
+## Part 03: Data Visualization
 Objective is to translate analytical findings into clear, interpretable visuals that highlight border traffic patterns and state-wise differences across time.
 Data Visualization is further divided into two parts:
 a. Decade of Entry Data: Analyze by Percentage and Volume
@@ -80,6 +81,6 @@ Temporal Patterns in Entry Data:
 
 The analysis demonstrates how the pandemic temporarily reshaped cross-border movement, with uneven recovery across borders, states, and transport modes. These temporal insights help reveal not just when traffic changed, but how external events redefined long-term patterns of U.S. border mobility.
 
-##Part 04: Data Forecasting
-##Part 05:Data Science
+## Part 04: Data Forecasting
+## Part 05:Data Science
 _calling_GenAI_for_generating_visuals
