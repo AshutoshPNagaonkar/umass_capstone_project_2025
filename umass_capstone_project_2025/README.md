@@ -6,7 +6,7 @@ The project is divided into 5 parts:
 ## Part 01: Data Engineering
 Preparing and Structuring Data
 This phase focuses on collecting, cleaning, transforming, and optimizing the raw dataset to make it analysis-ready.<br>
-Here the data is collected. Necessary steps like Data Cleaning- checking for null, missing values, duplicates.<br> 
+
 Data Collection: Imported and reviewed the raw dataset, ensuring consistency in column names and data types.<br>
 Data Cleaning: Detected and handled nulls, missing values, and duplicates to maintain data integrity.<br>
 Encoding & Abbreviation:<br>
