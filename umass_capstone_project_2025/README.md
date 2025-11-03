@@ -1,7 +1,13 @@
 # From chaos to clarity – Analysing patterns, trends and forecasting for U.S. border crossing entry
 
 This project demonstrates the complete data journey: transforming raw data into insights, forecasting future trends, and leveraging Generative AI to generate visuals from natural language prompts.
-The project is divided into 5 parts:
+The project is divided into 5 parts five key phases, where data forecasting and data science take the spotlight—driving insights, predictions, and strategic understanding from the data.
+
+1. Data Engineering
+2. Data Analysis
+3. Data Visualization
+4. Data forcasting
+5. Data Science (generate 
 
 ## Part 01: Data Engineering
 Preparing and Structuring Data
