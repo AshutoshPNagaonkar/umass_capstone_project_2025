@@ -82,5 +82,19 @@ Temporal Patterns in Entry Data:
 The analysis demonstrates how the pandemic temporarily reshaped cross-border movement, with uneven recovery across borders, states, and transport modes. These temporal insights help reveal not just when traffic changed, but how external events redefined long-term patterns of U.S. border mobility.
 
 ## Part 04: Data Forecasting
-## Part 05:Data Science
-_calling_GenAI_for_generating_visuals
+This section implements <b>Facebook Prophet Model</b> for forcasting, prediction based on previous data for comparison and deviation from normal course using line chart analysis the trend between the two values.
+
+- Fig 41. Comparing Forecasted and Actual U.S. Entry Volumes by month for the COVID-19 affected years (2020–2023). Highlights overall trend and magnitude of deviations.
+- Fig 42. Showing Recovery from Anomaly by charting the absolute difference (Actual minus Predicted) over time. A move toward zero indicates recovery/normalization.
+- Fig 43. Severity of Disruption using Monthly Percentage Difference between actual and predicted U.S. entry volumes, clearly illustrating the magnitude of the model error during the anomaly.
+- Fig 44. Long-Term Trend and Forecast displaying 10 years of historical data with 4 years of forecasted values. Each monthly data point is marked with a dot, emphasizing seasonal variation and projection accuracy.
+- Fig 45. Forecast Emphasis showing U.S. entry volumes over the past 10 years, where the forecast segment (2020-2023) is visually emphasized (e.g., using a lighter or dashed line) to highlight projected changes in volume.
+
+## Part 05:Data Science _calling_GenAI_for_generating_visuals
+This section showcases expertise in Gen AI/NLP deployment, prompt engineering, end to end data pipeline construction, structured data modeling and creating user-friendly analytical tools that dramatically improve the speed and accessibility of data insights effectively by bridging the gap between business users and raw data using modular script approach encapsuling the original code as execution engine.
+
+- Deploys the Zero-Shot Classification model (facebook/bart-large-mnli) for high-performance Natural Language Processing, enabling Intent Classification without task-specific training.
+- Data Ingestion & Filtering: All six dimension tables and the core fact table are loaded. The primary fact table is strategically filtered to isolate the pre-anomaly analysis period (2015–2019), creating the target dataframe.
+- AI Interpretation: An unstructured user query (e.g., "state wise entries for the july") enters the system. The Hugging Face Zero-Shot Classifier determines the intent, while sophisticated keyword and regex logic extracts all necessary filtering and grouping various parameters as per the prompt.
+- Structured Command Output: The AI generates a standardized JSON command that acts as the blueprint for the data analysis.
+- Execution Engine: The engine consumes the JSON. It performs dynamic lookups (e.g., converting "Texas" to its numerical State_Code), applies all specified filters sequentially, performs the necessary data aggregation and finally renders the visualization.
