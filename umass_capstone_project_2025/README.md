@@ -99,7 +99,7 @@ This section implements <b>Facebook Prophet Model</b> for forcasting, prediction
 ## Part 05:Data Science _calling_GenAI_for_generating_visuals
 This section showcases expertise in Gen AI/NLP deployment, prompt engineering, end to end data pipeline construction, structured data modeling and creating user-friendly analytical tools that dramatically improve the speed and accessibility of data insights effectively by bridging the gap between business users and raw data using modular script approach encapsuling the original code as execution engine.
 
-- Deploys the Zero-Shot Classification model (facebook/bart-large-mnli) for high-performance Natural Language Processing, enabling Intent Classification without task-specific training.
+- Deploys the <b>Hugging Face Zero-Shot Classification model (facebook/bart-large-mnli)</b> for high-performance Natural Language Processing, enabling Intent Classification without task-specific training.
 - Data Ingestion & Filtering: All six dimension tables and the core fact table are loaded. The primary fact table is strategically filtered to isolate the pre-anomaly analysis period (2015–2019), creating the target dataframe.
 - AI Interpretation: An unstructured user query (e.g., "state wise entries for the july") enters the system. The Hugging Face Zero-Shot Classifier determines the intent, while sophisticated keyword and regex logic extracts all necessary filtering and grouping various parameters as per the prompt.
 - Structured Command Output: The AI generates a standardized JSON command that acts as the blueprint for the data analysis.
