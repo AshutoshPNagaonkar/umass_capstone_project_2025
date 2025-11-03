@@ -7,7 +7,7 @@ The project is divided into 5 parts five key phases, where data forecasting and 
 2. Data Analysis
 3. Data Visualization
 4. Data forcasting
-5. Data Science (generate 
+5. Data Science (generate visuals using natural language prompt)
 
 ## Part 01: Data Engineering
 Preparing and Structuring Data
